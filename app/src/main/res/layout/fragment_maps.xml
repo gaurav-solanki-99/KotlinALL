@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragment.MapsFragment">
+
+    <Button
+        android:id="@+id/btnstory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="Story"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:backgroundTint="#0000ffff"
+        android:layout_gravity="top|center" />
+    <Button
+        android:id="@+id/btnreel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Reels"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:backgroundTint="#0000ffff"
+        android:layout_gravity="top|start" />
+    <Button
+        android:id="@+id/btnhelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:text="Help"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:backgroundTint="#0000ffff"
+        android:layout_gravity="top|end" />
+
+</fragment>
+
+

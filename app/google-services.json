@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "996384444636",
+    "project_id": "social-feba4",
+    "storage_bucket": "social-feba4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996384444636:android:fa4347cb82c5c90780a419",
+        "android_client_info": {
+          "package_name": "com.example.social_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996384444636-d496ktg2pd6ls7i99lajas90i37q6ob7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.social_auth",
+            "certificate_hash": "790e3ed0ea9280a99bb404b95d25c60e54f10667"
+          }
+        },
+        {
+          "client_id": "996384444636-peji82c6968e26e4528icts4c3k55i1p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.social_auth",
+            "certificate_hash": "9a20204c8211b871798d65931097a7e8fb712d40"
+          }
+        },
+        {
+          "client_id": "996384444636-o0ess91agpuv4ato68j8hsb6h3tt0bhi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBecsSJw__sgvMsUgF1XiJmriU8smBOr6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996384444636-lsc880e0cn97jps88hsvji54hfq5av18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9CFD7701"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardview"
+        android:elevation="5dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="#E1F1E25E">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Social Auth"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="45dp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardview1"
+        android:layout_below="@+id/cardview"
+        android:elevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="@color/cardview_shadow_start_color">
+
+
+    <Button
+        android:id="@+id/link_google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_shadow_end_color"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text=" LINK YOUR GOOGLE ACCOUNT "
+        android:textColor="@android:color/white"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardview2"
+        android:layout_below="@+id/cardview1"
+        android:elevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="@color/cardview_shadow_start_color">
+
+
+        <Button
+            android:id="@+id/linkedin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_shadow_end_color"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="LINK YOUR LINKEDIN ACCOUNT"
+            android:textColor="@android:color/white"/>
+
+    </androidx.cardview.widget.CardView>
+
+<!--    <com.facebook.login.widget.LoginButton-->
+<!--        android:id="@+id/login_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/cardview2"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginTop="10dp" />-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardview3"
+        android:layout_below="@+id/cardview2"
+        android:elevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="@color/cardview_shadow_start_color">
+
+
+        <Button
+            android:id="@+id/custom_facebook_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_shadow_end_color"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="LINK YOUR FACEBOOK ACCOUNT"
+            android:textColor="@android:color/white"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+<!--    <Button-->
+<!--        android:id="@+id/custom_facebook_button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/cardview2"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:text="Log in with Facebook"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="16sp" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/facebookdata"-->
+<!--        android:layout_below="@+id/cardview3"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:textSize="20dp"/>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/facebookprofile"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/facebookdata"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        tools:srcCompat="@tools:sample/avatars" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imgmap"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_below="@+id/cardview3"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:src="@drawable/map" />-->
+
+    <ImageView
+        android:id="@+id/my_image_view"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="40dp"
+        android:layout_below="@+id/cardview3"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/map" />
+    <ImageView
+        android:id="@+id/camera"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="145dp"
+        android:layout_below="@+id/cardview3"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_baseline_camera_alt_24" />
+
+    <ImageView
+        android:id="@+id/img_messs"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/cardview3"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_baseline_message_24" />
+
+
+</RelativeLayout>
